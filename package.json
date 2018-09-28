@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "less": "^3.8.1"
+  },
+  "scripts": {
+	"build": "lessc template.less flamingo.css && copy flamingo.css \"html-preview\\theme\\test.css\""
+  }
+}
